@@ -1,0 +1,35 @@
+.general-section {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  padding: 15px 0;
+}
+
+.task-table-container {
+  display: flex;
+}
+
+.task-table-container table{
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.task-table-container td{
+  border: 1px solid grey;
+  padding: 5px;
+  text-align: center;
+}
+
+.filter-priority-select {
+  display: flex;
+  place-items: center;
+  padding: 0 10px;
+}
+
+.filter-priority-select-container {
+  display: grid;
+  place-items: center;
+}
